@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo yum update
 sudo yum remove docker \
                   docker-client \
@@ -23,3 +25,6 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 
 yum check-update
 sudo yum install code
+
+sudo yum update && sudo yum -y install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
