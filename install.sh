@@ -31,5 +31,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ln -sv “~/dotfiles/runcom/.bash_profile” ~
 ln -sv “~/dotfiles/runcom/.inputrc” ~
-ln -sv “~/dotfiles/git/.gitconfig” ~
+ln -sv “~/dotfiles/git/.gitconfig.local” ~
 ln -sv “~/dotfiles/vscode/settings.json” ~/.config/Code/User/
